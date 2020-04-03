@@ -10,7 +10,7 @@ document.querySelector('#start').addEventListener('click', function (e) {
         video: true,
         audio: true
     }, function(stream){
-        let emitterVideo = document.querySelector('#receiver-video')
+        let emitterVideo = document.querySelector('#emitter-video')
         const mediaStream = new MediaStream();
         emitterVideo.srcObject = mediaStream;
         emitterVideo.play()
