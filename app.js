@@ -1,7 +1,3 @@
-navigator.getUserMedia = ( navigator.getUserMedia ||
-    navigator.webkitGetUserMedia ||
-    navigator.mozGetUserMedia ||
-    navigator.msGetUserMedia)
 
 
 document.querySelector('#start').addEventListener('click', function (e) {
