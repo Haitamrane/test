@@ -13,7 +13,7 @@ document.querySelector('#start').addEventListener('click', function (e) {
         let emitterVideo = document.querySelector('#emitter-video')
         const mediaStream = new MediaStream();
         emitterVideo.srcObject = mediaStream;
-        emitterVideo.play()
+        emitterVideo.play();
     }, function() {})
 
 })
